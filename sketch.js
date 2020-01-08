@@ -1,3 +1,6 @@
+document.ontouchmove = function(event){
+  event.preventDefault();
+}
 
 let theShader;
 let img;
